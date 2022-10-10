@@ -1,2 +1,3 @@
-# pj-pedra-papel-tes
+# Rock-Paper-Scissors
+projeto do jogo: pedra, papel, tesoura.
  
