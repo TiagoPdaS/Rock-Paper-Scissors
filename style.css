@@ -1,0 +1,61 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.topo-pagina{
+    text-align: center;
+}
+
+.vencedor{
+    text-align: center;
+}
+
+.player-options img{
+    max-width: 200px;
+    opacity: 0.3;
+    cursor: pointer;
+    border: 1px solid black;
+   
+}
+
+.enemy-options img{
+    max-width: 200px;
+    opacity: 0.3;
+    border: 1px solid black;
+    
+   
+}
+
+.player-options,.enemy-options{
+    width:50%;
+}
+
+.align{
+    display: flex;
+    margin:0 200px;
+    align-items: center;
+    margin: 5px 20px;
+    
+}
+
+
+
+
+/* MODOS INDIVIDUAIS DE MIN E MAX-WIDTH E HEIGTH*/
+@media screen and (min-width: 320px){
+	.player-options img,
+    .enemy-options img{
+		width: 120% ;
+       
+	}
+}
+
+@media screen and (min-width: 580px){
+	.player-options img,
+    .enemy-options img{
+		width: 100%;
+	}
+}
