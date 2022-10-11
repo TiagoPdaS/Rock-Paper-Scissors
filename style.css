@@ -1,4 +1,3 @@
-
 *{
 	margin: 20px;
 	padding: 0;
@@ -7,11 +6,27 @@
 
 .topo-pagina{
     text-align: center;
+    color: blue;
+    background-image: linear-gradient(to right, pink, blue);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.1;
 }
 
 .vencedor{
     text-align: center;
-    border: 3px solid red;
+    border: 3px solid blue;
+    background-image: linear-gradient(to bottom, blue, green);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.1;
+  
 }
 
 .player-options img{
@@ -19,21 +34,19 @@
     opacity: 0.3;
     cursor: pointer;
     border: 1px solid black;
-   
 }
+
 
 .enemy-options img{
     max-width: 200px;
     opacity: 0.3;
     border: 1px solid black;
-    
-   
 }
 
 .player-options,.enemy-options{
     width:50%;
+    margin: 1px 10px;
 }
-
 .align{
     display: flex;
     margin:0 200px;
@@ -42,15 +55,12 @@
     
 }
 
-
-
-
 /* MODOS INDIVIDUAIS DE MIN E MAX-WIDTH E HEIGTH*/
 @media screen and (min-width: 320px){
 	.player-options img,
     .enemy-options img{
 		width: 120% ;
-       
+       height: 110px;
 	}
 }
 
@@ -58,5 +68,6 @@
 	.player-options img,
     .enemy-options img{
 		width: 100%;
+        height: 120px;
 	}
 }
